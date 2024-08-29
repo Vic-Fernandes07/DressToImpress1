@@ -1,3 +1,27 @@
 .yo {
-    color: brown;
+    color: white;
+    text-align: center;
+}
+
+
+
+.btn1 {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.btn2 {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.btn3 {
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+
+header {
+    display: flex;
+}
+
+.header2 {
+    
 }

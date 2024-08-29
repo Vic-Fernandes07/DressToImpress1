@@ -7,9 +7,7 @@ function App() {
     <>
       <div>
         <Outlet />
-        <div><button>Home</button></div>
-        <div><button onClick={"./components/SobreNos.jsx"}>SobreNos</button></div>
-        <div><button>Ajuda</button></div>
+        
       </div>
     </>
   );
