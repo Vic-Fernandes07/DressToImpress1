@@ -1,9 +1,7 @@
-.yo {
+.titulo {
     color: white;
     text-align: center;
 }
-
-
 
 .btn1 {
     background-color: rgba(0, 0, 0, 0);
@@ -25,4 +23,3 @@ header {
 .header2 {
     display:inline-flex;
 }
-
