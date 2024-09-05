@@ -29,7 +29,7 @@ const SobreNos = () => {
         </header>
       </div>
     
-    <img src={fundo} alt="" />
+    <img className='fundo' src={fundo} alt="" />
     </>
   )
 }
