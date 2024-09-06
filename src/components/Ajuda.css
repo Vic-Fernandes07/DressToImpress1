@@ -33,3 +33,7 @@
 .pergunta button{
   width: 90px;
 }
+
+.botao{
+  align-items: end;
+}
