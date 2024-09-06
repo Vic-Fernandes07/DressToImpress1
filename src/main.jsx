@@ -7,6 +7,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import SobreNos from "./components/SobreNos.jsx";
 import Ajuda from "./components/Ajuda.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
   {

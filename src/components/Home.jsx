@@ -6,30 +6,42 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <header>
-        <div className="yo">DRESS TO IMPRESS</div>
-      </header>
-      <div>
-        <header className="header2">
-          <div>
-            <button className="btn1">
-            <Link to={"/"}>Home</Link>
-            </button>
+      <div className="d-block bg-dark text-light conteudo">
+        <div className="row m-0 divMenu m-0">
+          {/* Logo */}
+          <div className="col m-0 bg-black">Logo/redes sociais</div>
+          {/* Menu */}
+          <div className="col m-0 bg-black text-light d-flex justify-content-end align-items-end">
+            <div className="d-flex">
+              <div className="btnMenu m-3">
+                <Link className="text-light text-decoration-none" to={"/"}>
+                  Home
+                </Link>
+              </div>
+              <div className="btnMenu m-3">
+                <Link
+                  className="text-light text-decoration-none"
+                  to={"/SobreNos"}
+                >
+                  Sobre Nós
+                </Link>
+              </div>
+              <div className="btnMenu m-3">
+                <Link className="text-light text-decoration-none" to={"/Ajuda"}>
+                  Ajuda
+                </Link>
+              </div>
+            </div>
           </div>
-          <div>
-            <button className="btn2">
-              <Link to={"/SobreNos"}>Sobre Nós</Link>
-            </button>
-          </div>
-          <div>
-            <button className="btn3">
-            <Link to={"/Ajuda"}>Ajuda</Link>
-            </button>
-          </div>
-        </header>
-      </div>
+        </div>
 
-      <img src={fundo} alt="" />
+        <div className="row divCorpo m-0">
+          {/* Perguntas Frequentes */}
+          <div className="col w-100 bg-dark">
+            <img src={fundo} alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
